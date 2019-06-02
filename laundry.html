@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<?php include("laundry.php"); ?>
+<html>
+
+<head>
+  <title>UCSD Washers and Dryers</title>
+  <link rel="stylesheet" href="laundry.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Header -->
+
+  <div id="header">
+    <h1>Warren College</h1>
+  </div>
+
+  <div id="temp">
+  </div>
+  <!-- App Container -->
+
+  <div class="container">
+
+    <!-- To Do Section -->
+
+    <div class="week">
+      <div class="top mode secondary-background">
+
+        <h2 class="modeline">Vacant</h2>
+        <h2 class="modeline">Working</h2>
+        <h2 class="modeline">Take out</h2>
+
+      </div>
+      <div class="top secondary-background">
+        <div class="mode square mode-0"></div>
+        <div class="mode square mode-1"></div>
+        <div class="mode square mode-2"></div>
+
+      </div>
+      <h2 class="tagline">Douglas</h2>
+
+      <div class="row secondary-background">
+        <div class="row">
+
+          <div class="day square"><h3>Washer</h3></div>
+          <div class="square mode-<?php echo $var2 ?>"><p>"<?php echo $var3 ?>"
+          </p>
+        </div>
+          <div class="square mode-2"><p>#2</p></div>
+          <div class="square mode-1"><p>#3</p></div>
+          <div class="square mode-0"><p>#4</p></div>
+          <div class="square mode-0"><p>#5</p></div>
+          <div class="square mode-0"><p>#6</p></div>
+
+
+        </div>
+
+        <div class="row">
+          <div class="day square"><h3>Dryer</h3></div>
+          <div class="square mode-1"><p>#1</p></div>
+          <div class="square mode-1"><p>#2</p></div>
+          <div class="square mode-1"><p>#3</p></div>
+          <div class="square mode-0"><p>#4</p></div>
+        </div>
+      </div>
+
+
+      <h2 class="tagline">Black</h2>
+      <div class="row secondary-background">
+        <div class="row">
+          <div class="day square"><h3>Washer</h3></div>
+          <div class="task square"><p>#1</p></div>
+          <div class="task square"><p>#2</p></div>
+          <div class="task square"><p>#3</p></div>
+          <div class="task square"><p>#4</p></div>
+        </div>
+
+        <div class="row">
+          <div class="day square"><h3>Dryer</h3></div>
+          <div class="task square"></div>
+          <div class="task square"></div>
+          <div class="task square"></div>
+        </div>
+      </div>
+
+
+      <h2 class="tagline">Brennan</h2>
+      <div class="row secondary-background">
+        <div class="row">
+
+          <div class="day square"><h3>Washer</h3></div>
+          <div class="task square"></div>
+          <div class="task square"></div>
+          <div class="task square"></div>
+          <div class="task square"></div>
+
+        </div>
+          <div class="row">
+            <div class="day square"><h3>Dryer</h3></div>
+            <div class="task square"></div>
+            <div class="task square"></div>
+            <div class="task square"></div>
+          </div>
+
+        </div>
+
+
+
+        Welcome <?php echo $_POST["washerMode"]; ?><br>
+        Your email address is: <?php echo $_POST["dryerMode"]; ?>
+
+        <!-- Reminders Section     <div class="reminders">
+        <h3>Reminders</h3>
+        <p>Don't know what to say</p>
+      </div>
+    </div>*/-->
+
+
+
+    <!-- Footer   <footer>
+    <span class="tagline">copyright nottodo.com</span>
+  </footer>-->
+
+</body>
+</html>

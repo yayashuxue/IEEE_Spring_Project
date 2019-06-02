@@ -1,0 +1,161 @@
+/* Universal Styles */
+
+body {
+  margin: 0px;
+  background-color: WhiteSmoke;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+}
+
+.secondary-background {
+  background-color: Snow;
+}
+
+.top {
+  min-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: centers;
+  font-size: 12px;
+  line-height: normal;
+}
+
+.tagline {
+  font-family: 'Quicksand', sans-serif;
+  color: LightSlateGrey;
+  line-height: 50px;
+}
+
+.modeline {
+  font-family: 'Quicksand', sans-serif;
+  color: LightSlateGrey;
+  line-height: 20px;
+}
+
+/* Header */
+
+h1 {
+  margin: 0;
+  background-color: Brown;
+  line-height: 100px;
+  color: Khaki;
+}
+
+h2 {
+  margin: 10px;
+}
+
+h3{
+  line-height : 20px;
+  font-size: 12px;
+}
+
+/* App Container */
+
+.container {
+  border: 2px solid Snow;
+  display: flex;
+}
+
+/* To Do Section */
+
+.week {
+  display:inline-flex;
+  flex-grow: 3;
+  flex-direction: column;
+}
+
+.row {
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+}
+
+
+.square {
+  font-family: 'Quicksand', sans-serif;
+
+  background-color: Gray;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.day.square {
+  background-color: SkyBlue;
+  border: 1px solid white;
+  font-size: 12px;
+  font-family: 'Rock Salt', cursive;
+}
+
+
+
+.task.square {
+  border: 1px solid white;
+}
+.mode-0{
+  font-family: 'Quicksand', sans-serif;
+  background-color: #22E681;
+  border: 1px solid white;
+}
+
+.mode-1{
+  font-family: 'Quicksand', sans-serif;
+
+  background-color: #E73D45;
+  border: 1px solid white;
+}
+.mode-2{
+  font-family: 'Quicksand', sans-serif;
+
+  background-color: Khaki;
+  border: 1px solid white;
+}
+
+.mode p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.mode.square {
+  border: 1px solid white;
+  font-size: 12px;
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+}
+
+/* Reminders */
+/*
+.reminders {
+  background-color: Khaki;
+  flex-grow: 3;
+}
+
+.reminders h3 {
+  width: 100%;
+  margin: 10px;
+  color: black;
+  line-height: 90px;
+  font-size: 24px;
+}
+
+.reminders p{
+  margin:0 10%;
+  text-align: left;
+    font-family: 'Quicksand', sans-serif;
+}*/
+
+/* Footer */
+/*
+footer {
+  font-size: 24px;
+}*/
